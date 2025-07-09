@@ -1,0 +1,2 @@
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\wwwroot\favicon.ico
+wwwroot\favicon.ico

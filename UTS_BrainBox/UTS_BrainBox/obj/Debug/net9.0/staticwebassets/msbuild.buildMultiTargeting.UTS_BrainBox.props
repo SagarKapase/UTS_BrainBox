@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UTS_BrainBox.props" />
+</Project>

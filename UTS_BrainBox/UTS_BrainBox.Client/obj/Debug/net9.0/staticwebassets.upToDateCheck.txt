@@ -1,0 +1,4 @@
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\wwwroot\appsettings.json
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\wwwroot\appsettings.Development.json
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json

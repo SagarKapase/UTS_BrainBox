@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.UTS_BrainBox.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.UTS_BrainBox.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.UTS_BrainBox.props",
+      "PackagePath": "build\\UTS_BrainBox.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.UTS_BrainBox.props",
+      "PackagePath": "buildMultiTargeting\\UTS_BrainBox.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.UTS_BrainBox.props",
+      "PackagePath": "buildTransitive\\UTS_BrainBox.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
