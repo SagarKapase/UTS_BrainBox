@@ -7,7 +7,7 @@
 <MudText Typo="Typo.h3" GutterBottom="true">Weather forecast</MudText>
 <MudText Typo="Typo.body1" Class="mb-8">This component demonstrates fetching data from the server.</MudText>
 
-@if (forecasts == null)
+@* @if (forecasts == null)
 {
     <MudProgressCircular Color="Color.Default" Indeterminate="true" />
 }
@@ -30,7 +30,7 @@ else
             <MudTablePager PageSizeOptions="new int[]{50, 100}" />
         </PagerContent>
     </MudTable>
-}
+} *@
 
 @code {
     private WeatherForecast[]? forecasts;

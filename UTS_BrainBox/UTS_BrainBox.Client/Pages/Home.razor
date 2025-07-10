@@ -1,32 +1,76 @@
-﻿@page "/"
+﻿@using UTS_BrainBox.Client.Entities
+@page "/"
 
 <PageTitle>Home</PageTitle>
 
 <MudText Typo="Typo.h4" GutterBottom="true">Dashboard</MudText>
 <div Class="d-flex flex-wrap gap-4" Elevation="0">
-	<MudCard Class="align-center" Width="280px" Height="170px">
-		<MudCardContent>
-			<MudText>12</MudText>
-			<MudText Typo="Typo.body2">Quizzes</MudText>
-		</MudCardContent>
-	</MudCard>
-	<MudCard Class="align-center" Width="300px" Height="170px">
-		<MudCardContent>
-			<MudText>12</MudText>
-			<MudText Typo="Typo.body2">Users</MudText>
-		</MudCardContent>
-	</MudCard>
-	<MudCard Class="align-center" Width="300px" Height="170px">
-		<MudCardContent>
-			<MudText>12</MudText>
-			<MudText Typo="Typo.body2">Pending Results</MudText>
-		</MudCardContent>
-	</MudCard>
-	<MudCard Class="align-center" Width="300px" Height="170px">
-		<MudCardContent>
-			<MudText>12</MudText>
-			<MudText Typo="Typo.body2">Certificates</MudText>
-		</MudCardContent>
-	</MudCard>
-
+    <MudCard Class="align-center" Width="280px" Height="170px">
+        <MudCardContent Class="align-content-center">
+            <MudText style="text-align:center">12</MudText>
+            <MudText Typo="Typo.body2">Quizzes</MudText>
+        </MudCardContent>
+    </MudCard>
+    <MudCard Class="align-center" Width="300px" Height="170px">
+        <MudCardContent Class="align-content-center">
+            <MudText style="text-align:center">59</MudText>
+            <MudText Typo="Typo.body2">Users</MudText>
+        </MudCardContent>
+    </MudCard>
+    <MudCard Class="align-center" Width="300px" Height="170px">
+        <MudCardContent Class="align-content-center">
+            <MudText style="text-align:center">3</MudText>
+            <MudText Typo="Typo.body2">Pending Results</MudText>
+        </MudCardContent>
+    </MudCard>
+    <MudCard Class="align-center" Width="300px" Height="170px">
+        <MudCardContent Class="align-content-center">
+            <MudText style="text-align:center">56</MudText>
+            <MudText Typo="Typo.body2">Certificates</MudText>
+        </MudCardContent>
+    </MudCard>
 </div>
+<MudDivider DividerType="DividerType.Middle" Class="my-6"/>
+
+<!--Code for Quizzes table -->
+<MudTable T="Quizzes" Items="@quizzes">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">All Quizzes</MudText>
+        <MudSpacer />
+        <MudTextField T="string" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Sr.No</MudTh>
+        <MudTh>Title</MudTh>
+        <MudTh>Description</MudTh>
+        <MudTh>Questions</MudTh>
+        <MudTh>Attempts</MudTh>
+        <MudTh>Actions</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Sr.No">@context.Id</MudTd>
+        <MudTd DataLabel="Title">@context.Title</MudTd>
+        <MudTd DataLabel="Description">@context.Description</MudTd>
+        <MudTd DataLabel="Questions">@context.Questions</MudTd>
+        <MudTd DataLabel="Attempts">@context.Attempts</MudTd>
+        <MudTd DataLabel="Actions">@context.Actions</MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager />
+    </PagerContent>
+</MudTable>
+
+@code
+{
+
+    private List<Quizzes> quizzes = new()
+    {
+        new Quizzes { Id = 1, Title = "WebServices", Description = "WebServices",Questions="20",Attempts="100",Actions="Delete" },
+        new Quizzes { Id = 2, Title = "Onboarding", Description = "Onboarding",Questions="50",Attempts="100",Actions="Delete" },
+        new Quizzes { Id = 3, Title = "eZAutomate", Description = "eZAutomate",Questions="50",Attempts="100",Actions="Delete" },
+        new Quizzes { Id = 4, Title = "Android", Description = "Android",Questions="30",Attempts="100",Actions="Delete" },
+        new Quizzes { Id = 5, Title = "Web", Description = "Web",Questions="20",Attempts="100",Actions="Delete" },
+        new Quizzes { Id = 6, Title = "Webservices Advanced", Description = "Webservices Advanced",Questions="50",Attempts="100",Actions="Delete" },
+        
+    };
+}
