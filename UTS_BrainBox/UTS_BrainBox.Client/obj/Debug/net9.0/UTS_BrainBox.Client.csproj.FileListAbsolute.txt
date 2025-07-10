@@ -621,6 +621,7 @@ D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\UTS_BrainBox.Client.AssemblyInfo.cs
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\UTS_BrainBox.Client.csproj.CoreCompileInputs.cache
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\UTS_BrainBox.Client.MvcApplicationPartsAssemblyInfo.cache
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\UTS_BrainBox.Client.sourcelink.json
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.wasm
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -1042,10 +1043,10 @@ D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\refint\UTS_BrainBox.Client.dll
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\UTS_BrainBox.Client.pdb
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\ref\UTS_BrainBox.Client.dll
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\bin\Debug\net9.0\wwwroot\_framework\UTS_BrainBox.Client.0m79bfmhd3.pdb
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\bin\Debug\net9.0\wwwroot\_framework\UTS_BrainBox.Client.ezwvfywhgp.wasm
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\bin\Debug\net9.0\wwwroot\_framework\UTS_BrainBox.Client.0m79bfmhd3.pdb.gz
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\bin\Debug\net9.0\wwwroot\_framework\UTS_BrainBox.Client.ezwvfywhgp.wasm.gz
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\compressed\tac60ohokk-ezwvfywhgp.gz
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\compressed\segf9yabs6-0m79bfmhd3.gz
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\compressed\k4ijx74chd-0ryazvmyjs.gz
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\bin\Debug\net9.0\wwwroot\_framework\UTS_BrainBox.Client.2eucy5o5k5.pdb
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\bin\Debug\net9.0\wwwroot\_framework\UTS_BrainBox.Client.dzndkxiu4i.wasm
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\bin\Debug\net9.0\wwwroot\_framework\UTS_BrainBox.Client.2eucy5o5k5.pdb.gz
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\bin\Debug\net9.0\wwwroot\_framework\UTS_BrainBox.Client.dzndkxiu4i.wasm.gz
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\compressed\tac60ohokk-dzndkxiu4i.gz
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\compressed\segf9yabs6-2eucy5o5k5.gz
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\compressed\k4ijx74chd-6k2f37jprx.gz
