@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3kP0IFcl8QXHN++0ax6QzscpwAAYd8wpfDimKEJg4NU=",
+  "Hash": "71+W/lhBiYbfCe9sgupT2Tm1UKJhlLtoGLZsUhqHE3s=",
   "Source": "UTS_BrainBox.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "g6c4z2543c",
-      "Integrity": "WE4/UlmPy3nnUXsJxzusT41u6zMMLX7OB2fpTbpTy6A=",
+      "Fingerprint": "maol6y7fdi",
+      "Integrity": "PixX3e0DJrJbkHcxFKGS6CnzHyekk5fGJILcy/WYLFE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -4357,8 +4357,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "qan2qvx4o3",
-      "Integrity": "jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0=",
+      "Fingerprint": "qxoe4zlnen",
+      "Integrity": "QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\UTS_BrainBox.Client.pdb"
@@ -4378,8 +4378,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "q74paidnve",
-      "Integrity": "arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo=",
+      "Fingerprint": "88oe6j7nma",
+      "Integrity": "KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\webcil\\UTS_BrainBox.Client.wasm"
@@ -6800,7 +6800,7 @@
       "OriginalItemSpec": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Text.Encoding.wasm"
     },
     {
-      "Identity": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\k4ijx74chd-g6c4z2543c.gz",
+      "Identity": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\k4ijx74chd-maol6y7fdi.gz",
       "SourceId": "UTS_BrainBox.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\",
@@ -6814,8 +6814,8 @@
       "RelatedAsset": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ky68dmuvzf",
-      "Integrity": "xEXWEeacmv/c/bL06yL960PnrVYo8sFffa6CYra84a0=",
+      "Fingerprint": "0emq8cdwop",
+      "Integrity": "KIQIOtJr6kupEOFEgK8T+NMYh4JLhVPhvXeRwKzhX34=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7871,12 +7871,12 @@
       "OriginalItemSpec": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Runtime.Serialization.wasm"
     },
     {
-      "Identity": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qan2qvx4o3.gz",
+      "Identity": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qxoe4zlnen.gz",
       "SourceId": "UTS_BrainBox.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/UTS_BrainBox.Client#[.{fingerprint=qan2qvx4o3}]!.pdb.gz",
+      "RelativePath": "_framework/UTS_BrainBox.Client#[.{fingerprint=qxoe4zlnen}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7885,8 +7885,8 @@
       "RelatedAsset": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\UTS_BrainBox.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vo6o7vyzht",
-      "Integrity": "31q2NjA6exJjDzUPDxOREocBJEgp3GYm9tf54MX+JfE=",
+      "Fingerprint": "hn29osrgv9",
+      "Integrity": "rS1lDbwI761YshQAAPE+kC9gEhSSZPxeX6bjM9Pxwk4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\UTS_BrainBox.Client.pdb"
@@ -8039,12 +8039,12 @@
       "OriginalItemSpec": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.Primitives.wasm"
     },
     {
-      "Identity": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-q74paidnve.gz",
+      "Identity": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-88oe6j7nma.gz",
       "SourceId": "UTS_BrainBox.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/UTS_BrainBox.Client#[.{fingerprint=q74paidnve}]!.wasm.gz",
+      "RelativePath": "_framework/UTS_BrainBox.Client#[.{fingerprint=88oe6j7nma}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8053,8 +8053,8 @@
       "RelatedAsset": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\UTS_BrainBox.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4badi1fydd",
-      "Integrity": "cNtYCb9htQVuAJK49EVBdLMPeREtGpmbVYS7z2oxjoI=",
+      "Fingerprint": "jbmkccbud1",
+      "Integrity": "AeYbIPiAAS6aR3n1q0e4kreN78ifV4dhFKKj4nzSU1U=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\UTS_BrainBox.Client.wasm"
@@ -9263,11 +9263,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WE4/UlmPy3nnUXsJxzusT41u6zMMLX7OB2fpTbpTy6A=\""
+          "Value": "\"PixX3e0DJrJbkHcxFKGS6CnzHyekk5fGJILcy/WYLFE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9277,18 +9277,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WE4/UlmPy3nnUXsJxzusT41u6zMMLX7OB2fpTbpTy6A="
+          "Value": "sha256-PixX3e0DJrJbkHcxFKGS6CnzHyekk5fGJILcy/WYLFE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\k4ijx74chd-g6c4z2543c.gz",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\k4ijx74chd-maol6y7fdi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000079554495"
+          "Quality": "0.000079560824"
         }
       ],
       "ResponseHeaders": [
@@ -9298,15 +9298,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12569"
+          "Value": "12568"
         },
         {
           "Name": "ETag",
-          "Value": "\"xEXWEeacmv/c/bL06yL960PnrVYo8sFffa6CYra84a0=\""
+          "Value": "\"KIQIOtJr6kupEOFEgK8T+NMYh4JLhVPhvXeRwKzhX34=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:29:36 GMT"
+          "Value": "Fri, 11 Jul 2025 02:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9326,19 +9326,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WE4/UlmPy3nnUXsJxzusT41u6zMMLX7OB2fpTbpTy6A=\""
+          "Value": "W/\"PixX3e0DJrJbkHcxFKGS6CnzHyekk5fGJILcy/WYLFE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WE4/UlmPy3nnUXsJxzusT41u6zMMLX7OB2fpTbpTy6A="
+          "Value": "sha256-PixX3e0DJrJbkHcxFKGS6CnzHyekk5fGJILcy/WYLFE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\k4ijx74chd-g6c4z2543c.gz",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\k4ijx74chd-maol6y7fdi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9347,7 +9347,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12569"
+          "Value": "12568"
         },
         {
           "Name": "Content-Type",
@@ -9355,11 +9355,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xEXWEeacmv/c/bL06yL960PnrVYo8sFffa6CYra84a0=\""
+          "Value": "\"KIQIOtJr6kupEOFEgK8T+NMYh4JLhVPhvXeRwKzhX34=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:29:36 GMT"
+          "Value": "Fri, 11 Jul 2025 02:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9377,7 +9377,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xEXWEeacmv/c/bL06yL960PnrVYo8sFffa6CYra84a0="
+          "Value": "sha256-KIQIOtJr6kupEOFEgK8T+NMYh4JLhVPhvXeRwKzhX34="
         }
       ]
     },
@@ -69715,144 +69715,7 @@
       ]
     },
     {
-      "Route": "_framework/UTS_BrainBox.Client.pdb",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\UTS_BrainBox.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33000"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/UTS_BrainBox.Client.pdb",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qan2qvx4o3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000039111389"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25567"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"31q2NjA6exJjDzUPDxOREocBJEgp3GYm9tf54MX+JfE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/UTS_BrainBox.Client.pdb.gz",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qan2qvx4o3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25567"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"31q2NjA6exJjDzUPDxOREocBJEgp3GYm9tf54MX+JfE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-31q2NjA6exJjDzUPDxOREocBJEgp3GYm9tf54MX+JfE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/UTS_BrainBox.Client.q74paidnve.wasm",
+      "Route": "_framework/UTS_BrainBox.Client.88oe6j7nma.wasm",
       "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\UTS_BrainBox.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -69862,7 +69725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39701"
+          "Value": "40725"
         },
         {
           "Name": "Content-Type",
@@ -69870,11 +69733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo=\""
+          "Value": "\"KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -69884,7 +69747,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q74paidnve"
+          "Value": "88oe6j7nma"
         },
         {
           "Name": "label",
@@ -69892,18 +69755,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo="
+          "Value": "sha256-KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI="
         }
       ]
     },
     {
-      "Route": "_framework/UTS_BrainBox.Client.q74paidnve.wasm",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-q74paidnve.gz",
+      "Route": "_framework/UTS_BrainBox.Client.88oe6j7nma.wasm",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-88oe6j7nma.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000068752149"
+          "Quality": "0.000067939398"
         }
       ],
       "ResponseHeaders": [
@@ -69913,15 +69776,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14544"
+          "Value": "14718"
         },
         {
           "Name": "ETag",
-          "Value": "\"cNtYCb9htQVuAJK49EVBdLMPeREtGpmbVYS7z2oxjoI=\""
+          "Value": "\"AeYbIPiAAS6aR3n1q0e4kreN78ifV4dhFKKj4nzSU1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -69941,13 +69804,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo=\""
+          "Value": "W/\"KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q74paidnve"
+          "Value": "88oe6j7nma"
         },
         {
           "Name": "label",
@@ -69955,13 +69818,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo="
+          "Value": "sha256-KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI="
         }
       ]
     },
     {
-      "Route": "_framework/UTS_BrainBox.Client.q74paidnve.wasm.gz",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-q74paidnve.gz",
+      "Route": "_framework/UTS_BrainBox.Client.88oe6j7nma.wasm.gz",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-88oe6j7nma.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -69970,7 +69833,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14544"
+          "Value": "14718"
         },
         {
           "Name": "Content-Type",
@@ -69978,11 +69841,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cNtYCb9htQVuAJK49EVBdLMPeREtGpmbVYS7z2oxjoI=\""
+          "Value": "\"AeYbIPiAAS6aR3n1q0e4kreN78ifV4dhFKKj4nzSU1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70000,7 +69863,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q74paidnve"
+          "Value": "88oe6j7nma"
         },
         {
           "Name": "label",
@@ -70008,12 +69871,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cNtYCb9htQVuAJK49EVBdLMPeREtGpmbVYS7z2oxjoI="
+          "Value": "sha256-AeYbIPiAAS6aR3n1q0e4kreN78ifV4dhFKKj4nzSU1U="
         }
       ]
     },
     {
-      "Route": "_framework/UTS_BrainBox.Client.qan2qvx4o3.pdb",
+      "Route": "_framework/UTS_BrainBox.Client.pdb",
       "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\UTS_BrainBox.Client.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -70031,40 +69894,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0=\""
+          "Value": "\"QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:11 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "qan2qvx4o3"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/UTS_BrainBox.Client.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0="
+          "Value": "sha256-QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A="
         }
       ]
     },
     {
-      "Route": "_framework/UTS_BrainBox.Client.qan2qvx4o3.pdb",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qan2qvx4o3.gz",
+      "Route": "_framework/UTS_BrainBox.Client.pdb",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qxoe4zlnen.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000039111389"
+          "Quality": "0.000039044198"
         }
       ],
       "ResponseHeaders": [
@@ -70074,19 +69929,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25567"
+          "Value": "25611"
         },
         {
           "Name": "ETag",
-          "Value": "\"31q2NjA6exJjDzUPDxOREocBJEgp3GYm9tf54MX+JfE=\""
+          "Value": "\"rS1lDbwI761YshQAAPE+kC9gEhSSZPxeX6bjM9Pxwk4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -70102,27 +69957,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0=\""
+          "Value": "W/\"QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "qan2qvx4o3"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/UTS_BrainBox.Client.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-jtfLYuW4HaSLo4GQgCVehSE13uyrVAY1QtGG1BTrAB0="
+          "Value": "sha256-QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A="
         }
       ]
     },
     {
-      "Route": "_framework/UTS_BrainBox.Client.qan2qvx4o3.pdb.gz",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qan2qvx4o3.gz",
+      "Route": "_framework/UTS_BrainBox.Client.pdb.gz",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qxoe4zlnen.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70131,7 +69978,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25567"
+          "Value": "25611"
         },
         {
           "Name": "Content-Type",
@@ -70139,11 +69986,164 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"31q2NjA6exJjDzUPDxOREocBJEgp3GYm9tf54MX+JfE=\""
+          "Value": "\"rS1lDbwI761YshQAAPE+kC9gEhSSZPxeX6bjM9Pxwk4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rS1lDbwI761YshQAAPE+kC9gEhSSZPxeX6bjM9Pxwk4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/UTS_BrainBox.Client.qxoe4zlnen.pdb",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\UTS_BrainBox.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 02:39:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxoe4zlnen"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/UTS_BrainBox.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/UTS_BrainBox.Client.qxoe4zlnen.pdb",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qxoe4zlnen.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000039044198"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25611"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rS1lDbwI761YshQAAPE+kC9gEhSSZPxeX6bjM9Pxwk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxoe4zlnen"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/UTS_BrainBox.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QorMF4ubDdTkvHA3sL3U8SQgXbNz7V051/Z7+felh7A="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/UTS_BrainBox.Client.qxoe4zlnen.pdb.gz",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\segf9yabs6-qxoe4zlnen.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rS1lDbwI761YshQAAPE+kC9gEhSSZPxeX6bjM9Pxwk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70161,7 +70161,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qan2qvx4o3"
+          "Value": "qxoe4zlnen"
         },
         {
           "Name": "label",
@@ -70169,7 +70169,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-31q2NjA6exJjDzUPDxOREocBJEgp3GYm9tf54MX+JfE="
+          "Value": "sha256-rS1lDbwI761YshQAAPE+kC9gEhSSZPxeX6bjM9Pxwk4="
         }
       ]
     },
@@ -70184,7 +70184,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39701"
+          "Value": "40725"
         },
         {
           "Name": "Content-Type",
@@ -70192,11 +70192,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo=\""
+          "Value": "\"KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70206,18 +70206,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo="
+          "Value": "sha256-KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI="
         }
       ]
     },
     {
       "Route": "_framework/UTS_BrainBox.Client.wasm",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-q74paidnve.gz",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-88oe6j7nma.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000068752149"
+          "Quality": "0.000067939398"
         }
       ],
       "ResponseHeaders": [
@@ -70227,15 +70227,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14544"
+          "Value": "14718"
         },
         {
           "Name": "ETag",
-          "Value": "\"cNtYCb9htQVuAJK49EVBdLMPeREtGpmbVYS7z2oxjoI=\""
+          "Value": "\"AeYbIPiAAS6aR3n1q0e4kreN78ifV4dhFKKj4nzSU1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70255,19 +70255,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo=\""
+          "Value": "W/\"KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-arwbHpq0ZbqPkJkcZ0F2KFQaqwaDLLl4Kk7zgw4dpZo="
+          "Value": "sha256-KJQNZvRdIe1h5kqQ8iqYxqMPMgoDewbYqEynL6wF6QI="
         }
       ]
     },
     {
       "Route": "_framework/UTS_BrainBox.Client.wasm.gz",
-      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-q74paidnve.gz",
+      "AssetFile": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\obj\\Debug\\net9.0\\compressed\\tac60ohokk-88oe6j7nma.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70276,7 +70276,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14544"
+          "Value": "14718"
         },
         {
           "Name": "Content-Type",
@@ -70284,11 +70284,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cNtYCb9htQVuAJK49EVBdLMPeREtGpmbVYS7z2oxjoI=\""
+          "Value": "\"AeYbIPiAAS6aR3n1q0e4kreN78ifV4dhFKKj4nzSU1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Jul 2025 16:30:34 GMT"
+          "Value": "Fri, 11 Jul 2025 02:39:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70306,7 +70306,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cNtYCb9htQVuAJK49EVBdLMPeREtGpmbVYS7z2oxjoI="
+          "Value": "sha256-AeYbIPiAAS6aR3n1q0e4kreN78ifV4dhFKKj4nzSU1U="
         }
       ]
     },

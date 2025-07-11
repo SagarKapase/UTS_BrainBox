@@ -7,6 +7,5 @@
         public string Description { get; set; }
         public string Questions { get; set; }
         public string Attempts { get; set; }
-        public string Actions { get; set; }
     }
 }
