@@ -54,7 +54,8 @@
         <MudTd DataLabel="Questions">@context.Questions</MudTd>
         <MudTd DataLabel="Attempts">@context.Attempts</MudTd>
         <MudTd DataLabel="Actions">
-            <MudIconButton Icon="@Icons.Material.Outlined.RemoveRedEye" />
+            @* <MudIconButton Icon="@Icons.Material.Outlined.RemoveRedEye" /> *@
+            <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.RemoveRedEye" IconColor="Color.Primary" Size="Size.Small">View</MudButton>
         </MudTd>
     </RowTemplate>
     <PagerContent>

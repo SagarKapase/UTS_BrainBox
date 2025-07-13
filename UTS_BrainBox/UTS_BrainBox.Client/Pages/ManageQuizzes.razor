@@ -1,19 +1,64 @@
 ﻿@page "/manageQuizzes"
+@using UTS_BrainBox.Client.Entities
 
 
 <PageTitle>Manage Quizzes</PageTitle>
 
-<MudText Typo="Typo.h4" GutterBottom="true">Manage Quizzes</MudText>
+<div style="display:flex;align-items:center;justify-content:space-between;">
+    <div>
+        <MudText Typo="Typo.h4" GutterBottom="true">Manage Quizzes</MudText>
+    </div>
+    <div>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary">Create Quiz</MudButton>
+    </div>
+</div>
+<!--Code for Quizzes table -->
+<div>
+    <MudTable T="Quizzes" Items="@quizzes">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">All Quizzes</MudText>
+        <MudSpacer />
+        <MudTextField T="string" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Sr.No</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Description</MudTh>
+        <MudTh>Questions</MudTh>
+        <MudTh>Status</MudTh>
+        <MudTh>Actions</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Sr.No">@context.Id</MudTd>
+        <MudTd DataLabel="Name">@context.Title</MudTd>
+        <MudTd DataLabel="Description">@context.Description</MudTd>
+        <MudTd DataLabel="Questions">@context.Questions</MudTd>
+        <MudTd DataLabel="Active">
+            <MudSwitch @bind-Value="Basic_Switch2" Color="Color.Primary" />
+        </MudTd>
+        <MudTd DataLabel="Actions">
+                <MudIconButton Icon="@Icons.Material.Filled.Edit" aria-label="edit" />
+                <MudIconButton Icon="@Icons.Material.Filled.Delete" aria-label="delete" />
+        </MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager />
+    </PagerContent>
+</MudTable>
+</div>
 
-<MudText Class="mb-4">Current count: @currentCount</MudText>
-
-<MudButton Color="Color.Primary" Variant="Variant.Filled" @onclick="IncrementCount">Click me</MudButton>
 
 @code {
-    private int currentCount = 0;
+    public bool Basic_Switch2 { get; set; } = true;
 
-    private void IncrementCount()
+    private List<Quizzes> quizzes = new()
     {
-        currentCount++;
-    }
+        new Quizzes { Id = 1, Title = "WebServices", Description = "WebServices",Questions="20",Attempts="0"},
+        new Quizzes { Id = 2, Title = "Onboarding", Description = "Onboarding",Questions="50",Attempts="0"},
+        new Quizzes { Id = 3, Title = "eZAutomate", Description = "eZAutomate",Questions="50",Attempts="0"},
+        new Quizzes { Id = 4, Title = "Android", Description = "Android",Questions="30",Attempts="0"},
+        new Quizzes { Id = 5, Title = "Web", Description = "Web",Questions="20",Attempts="0"},
+        new Quizzes { Id = 6, Title = "Webservices Advanced", Description = "Webservices Advanced",Questions="50",Attempts="0"}
+        
+    };
 }
