@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox.client\\pages\\addquestions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|solutionrelative:uts_brainbox.client\\pages\\addquestions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox.client\\pages\\managequizzes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|solutionrelative:uts_brainbox.client\\pages\\managequizzes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox.client\\pages\\createquiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|solutionrelative:uts_brainbox.client\\pages\\createquiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|solutionrelative:uts_brainbox.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox.client\\pages\\managequizzes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|solutionrelative:uts_brainbox.client\\pages\\managequizzes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox.client\\entities\\quizzes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|solutionrelative:uts_brainbox.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox.client\\pages\\addquestions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E80ED76-E270-459F-B423-F69FE54F51AA}|UTS_BrainBox.Client\\UTS_BrainBox.Client.csproj|solutionrelative:uts_brainbox.client\\pages\\addquestions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|solutionrelative:uts_brainbox\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1563,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,20 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CreateQuiz.razor",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Pages\\CreateQuiz.razor",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Pages\\CreateQuiz.razor",
               "ToolTip": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Pages\\CreateQuiz.razor",
               "RelativeToolTip": "UTS_BrainBox.Client\\Pages\\CreateQuiz.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAywCYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-14T14:49:10.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Layout\\MainLayout.razor",
@@ -79,12 +79,11 @@
               "RelativeToolTip": "UTS_BrainBox.Client\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T14:43:20.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T14:43:20.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Pages\\Home.razor",
@@ -96,20 +95,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ManageQuizzes.razor",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Pages\\ManageQuizzes.razor",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Pages\\ManageQuizzes.razor",
               "ToolTip": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Pages\\ManageQuizzes.razor",
               "RelativeToolTip": "UTS_BrainBox.Client\\Pages\\ManageQuizzes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-11T02:43:09.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Quizzes.cs",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Entities\\Quizzes.cs",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Entities\\Quizzes.cs",
@@ -121,19 +120,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "AddQuestions.razor",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Pages\\AddQuestions.razor",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Pages\\AddQuestions.razor",
               "ToolTip": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Pages\\AddQuestions.razor",
               "RelativeToolTip": "UTS_BrainBox.Client\\Pages\\AddQuestions.razor",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswB0AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T15:18:30.014Z"
+              "WhenOpened": "2025-07-10T15:18:30.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Layout\\NavMenu.razor",
