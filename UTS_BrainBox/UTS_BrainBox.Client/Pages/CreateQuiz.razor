@@ -1,0 +1,60 @@
+﻿@page "/create-quiz"
+
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+<div style="margin-top:15px;width:100%;">
+    <MudGrid Style="width:100%;">
+        <MudItem Style="width:100%;">
+            <MudPaper Class="pa-4">
+                <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+                    <MudTextField T="string" Label="Title" Required="true" RequiredError="Title is required!" />
+                    <MudTextField T="string" Label="Description" Required="true" RequiredError="Description is required!" />
+                    <MudSelect @bind-Value="_value"
+                               Label="Select Category"
+                               Placeholder="">
+                        @foreach (var state in _states)
+                        {
+                            <MudSelectItem Value="state">@state</MudSelectItem>
+                        }
+                    </MudSelect>
+                    <MudTextField T="string" Label="Duration (Minutes)" RequiredError="Quiz Duration is required!" />
+                </MudForm>
+            </MudPaper>
+            <MudPaper Class="pa-4 mt-4">
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" DropShadow="false" OnClick="GoBack">Go Back</MudButton>
+                <MudButton Variant="Variant.Filled" Color="Color.Secondary" DropShadow="false" OnClick="@(()=>form.ResetAsync())" Class="mx-2">Reset</MudButton>
+                <MudButton Variant="Variant.Filled" DropShadow="false" OnClick="SubmitQuiz">Create</MudButton>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+</div>
+@code {
+    bool success;
+    string[] errors = { };
+    MudForm form;
+    [Inject] NavigationManager Navigation { get; set; }
+    private string _value;
+    private Margin _margin;
+    private bool _dense;
+    private bool _disabled;
+    private bool _readonly;
+    private bool _placeholder;
+    private bool _helperText;
+    private bool _helperTextOnFocus;
+    private bool _clearable;
+    private bool _fitContent;
+    private bool _modal = true;
+
+    private readonly string[] _states =
+    {
+        "Onboarding", "Technology", "Soft Skills"
+    };
+
+    private void SubmitQuiz()
+    {
+        // Redirect to Manage Quizzes or wherever appropriate
+        Navigation.NavigateTo("/manageQuizzes");
+    }
+
+    private void GoBack() => Navigation.NavigateTo("/manageQuizzes");
+}

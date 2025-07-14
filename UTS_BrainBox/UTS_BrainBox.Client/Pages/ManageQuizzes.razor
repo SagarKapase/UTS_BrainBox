@@ -1,4 +1,5 @@
 ﻿@page "/manageQuizzes"
+@inject NavigationManager Navigation
 @using UTS_BrainBox.Client.Entities
 
 
@@ -9,7 +10,7 @@
         <MudText Typo="Typo.h4" GutterBottom="true">Manage Quizzes</MudText>
     </div>
     <div>
-        <MudButton Variant="Variant.Filled" Color="Color.Primary">Create Quiz</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(() => Navigation.NavigateTo("/create-quiz"))">Create Quiz</MudButton>
     </div>
 </div>
 <!--Code for Quizzes table -->
