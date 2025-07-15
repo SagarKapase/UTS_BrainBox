@@ -1,6 +1,60 @@
 ﻿@page "/assignQuizzes"
-<h3>AssignQuizzes</h3>
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+<MudText Typo="Typo.h4" GutterBottom="true">Assign Quiz</MudText>
 
+<div style="margin-top:15px;width:100%;">
+    <MudGrid Style="width:100%;">
+        <MudItem Style="width:100%;">
+            <MudPaper Class="pa-4">
+                <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+                    <MudSelect @bind-Value="_value"
+                               Label="Select Quiz"
+                               Placeholder="">
+                        @foreach (var quiz in _quizes)
+                        {
+                            <MudSelectItem Value="quiz">@quiz</MudSelectItem>
+                        }
+                    </MudSelect>
+                    <MudSelect @bind-Value="_qvalue"
+                               Label="Assign To"
+                               Placeholder="">
+                        @foreach (var assign in _assignTo)
+                        {
+                            <MudSelectItem Value="assign">@assign</MudSelectItem>
+                        }
+                    </MudSelect>
+                    <MudTextField T="string" Label="Due Date" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.CalendarMonth" AdornmentColor="Color.Primary" Required="true" RequiredError="" />
+                </MudForm>
+            </MudPaper>
+            <MudPaper Class="pa-4 mt-4">
+                <MudButton Variant="Variant.Filled" Color="Color.Secondary" DropShadow="false" OnClick="@(()=>form.ResetAsync())" Class="mx-2">Reset</MudButton>
+                <MudButton Variant="Variant.Filled" DropShadow="false" OnClick="AssignQuiz">Assign</MudButton>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+</div>
 @code {
+    bool success;
+    string[] errors = { };
+    MudForm form;
+    [Inject] NavigationManager Navigation { get; set; }
+    private string _value;
+    private string _qvalue;
 
+    private readonly string[] _quizes =
+    {
+        "Onboarding", "Technology", "Soft Skills"
+    };
+    private readonly string[] _assignTo =
+    {
+        "Develper Team",
+        "Manual Team",
+        "Automation Team"
+    };
+
+    private void AssignQuiz()
+    {
+        //Navigation.NavigateTo("/manageQuizzes");
+    }
 }
