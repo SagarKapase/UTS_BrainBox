@@ -1,6 +1,43 @@
 ﻿@page "/reports"
-<h3>UserReports</h3>
+@using UTS_BrainBox.Client.Entities
 
-@code {
+<!--Code for Quizzes table -->
+<MudTable T="UserReport" Items="@reportsData" Style="margin-top:15px;">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Employee Reports</MudText>
+        <MudSpacer />
+        <MudTextField T="string" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Employee ID</MudTh>
+        <MudTh>Employee Name</MudTh>
+        <MudTh>Quiz</MudTh>
+        <MudTh>Score</MudTh>
+        <MudTh>Date</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Employee ID">@context.EmployeeID</MudTd>
+        <MudTd DataLabel="Employee Name">@context.EmployeeName</MudTd>
+        <MudTd DataLabel="Quiz">@context.Quiz</MudTd>
+        <MudTd DataLabel="Score">@context.Score</MudTd>
+        <MudTd DataLabel="Date">@context.Date</MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager />
+    </PagerContent>
+</MudTable>
 
+@code
+{
+
+    private List<UserReport> reportsData = new()
+    {
+        new UserReport { EmployeeID = "P0225", EmployeeName = "Sagar Kapase", Quiz = "WebServices",Score="20",Date="12/10/2025"},
+        new UserReport { EmployeeID = "P0226", EmployeeName = "Gayatri Darshane", Quiz = "WebServices",Score="20",Date="12/10/2025"},
+        new UserReport { EmployeeID = "P0227", EmployeeName = "Om Korde", Quiz = "Automation Ethics",Score="20",Date="12/10/2025"},
+        new UserReport { EmployeeID = "P0228", EmployeeName = "Kartik Bhand", Quiz = "Automation Ethics",Score="20",Date="12/10/2025"},
+        new UserReport { EmployeeID = "P0229", EmployeeName = "Rutik Erole", Quiz = "Manual Concepts",Score="20",Date="12/10/2025"},
+        new UserReport { EmployeeID = "P0230", EmployeeName = "Sharaddha", Quiz = "Salesforce UseCases",Score="20",Date="12/10/2025"}
+
+    };
 }
