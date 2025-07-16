@@ -1,0 +1,78 @@
+﻿@page "/"
+<div>
+	<div style="display:flex;justify-content:center;align-items:center;">
+		<MudText Typo="Typo.h4">
+			Login
+		</MudText>
+	</div>
+	<div>
+		<MudSelect @bind-Value="_role"
+		Label="Login As"
+		Variant="Variant.Outlined"
+		Style="width:200px;"
+		Placeholder="">
+			@foreach (var role in _roles)
+			{
+				<MudSelectItem Value="role">@role</MudSelectItem>
+			}
+		</MudSelect>
+		<MudTextField @bind-Value="_email" Label="Email" Variant="Variant.Outlined"></MudTextField>
+		<MudTextField @bind-Value="_password" Label="Password" Variant="Variant.Outlined" InputType="@PasswordInput" Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="ButtonTestclick" AdornmentAriaLabel="Show Password" />
+	</div>
+	<div>
+		<MudButton Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.Login" Color="Color.Primary" OnClick="Login">Login</MudButton>
+	</div>
+</div>
+@code {
+	private string _role = string.Empty;
+	private string _email = string.Empty;
+	private string _password = string.Empty;
+	[Inject] NavigationManager Navigation { get; set; }
+
+	bool isShow;
+	InputType PasswordInput = InputType.Password;
+	string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+
+	void ButtonTestclick()
+	{
+		@if (isShow)
+		{
+			isShow = false;
+			PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+			PasswordInput = InputType.Password;
+		}
+		else
+		{
+			isShow = true;
+			PasswordInputIcon = Icons.Material.Filled.Visibility;
+			PasswordInput = InputType.Text;
+		}
+	}
+	private readonly string[] _roles =
+	{
+		"Admin", "Employee"
+	};
+	public void Login()
+	{
+		if (string.IsNullOrWhiteSpace(_role) || string.IsNullOrWhiteSpace(_email) || string.IsNullOrWhiteSpace(_password))
+		{
+			//Snackbar.Add("Please fill all fields", Severity.Error);
+			return;
+		}
+
+		if (_role == "Admin" && _email == "sagar.kapase@uts-global.com" && _password == "uts@123")
+		{
+			//Snackbar.Add("Admin Login Successful", Severity.Success);
+			Navigation.NavigateTo("/dashboard", forceLoad: true);
+		}
+		else if (_role == "Employee" && _email == "employee@uts-global.com" && _password == "Emp@123")
+		{
+			//Snackbar.Add("Employee Login Successful", Severity.Success);
+			Navigation.NavigateTo("/employee-dashboard");
+		}
+		else
+		{
+			//Snackbar.Add("Invalid credentials", Severity.Error);
+		}
+	}
+}
