@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore": "9.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.7",
-          "UTS_BrainBox.Client": "1.0.0"
+          "UTS_BrainBox.Client": "1.0.0",
+          "RestSharp": "112.1.0.0"
         },
         "runtime": {
           "UTS_BrainBox.dll": {}
@@ -1244,6 +1245,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "RestSharp/112.1.0.0": {
+        "runtime": {
+          "RestSharp.dll": {
+            "assemblyVersion": "112.1.0.0",
+            "fileVersion": "112.1.0.0"
+          }
+        }
       }
     }
   },
@@ -1948,6 +1957,11 @@
     },
     "UTS_BrainBox.Client/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestSharp/112.1.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

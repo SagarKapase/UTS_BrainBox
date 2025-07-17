@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UTS_BrainBox")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63c5917ee3df21291c243e68a9c32c19ac47a514")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0304081814ca0abc17f8298dacbc244272768efa")]
 [assembly: System.Reflection.AssemblyProductAttribute("UTS_BrainBox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UTS_BrainBox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

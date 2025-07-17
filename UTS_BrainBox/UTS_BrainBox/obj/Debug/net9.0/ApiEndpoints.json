@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "ContainingType": "UTS_BrainBox.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "UTS_BrainBox.Entities.LoginRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UTS_BrainBox.Entities.LoginResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

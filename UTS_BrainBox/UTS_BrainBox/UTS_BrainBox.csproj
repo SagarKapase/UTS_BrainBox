@@ -18,4 +18,11 @@
     </PackageReference>
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Reference Include="RestSharp">
+      <HintPath>bin\Debug\RestSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

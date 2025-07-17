@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
+using UTS_BrainBox.Client.DBOperations;
 using UTS_BrainBox.Client.Pages;
 using UTS_BrainBox.Components;
 
@@ -12,6 +14,10 @@ namespace UTS_BrainBox
 
             // Add MudBlazor services
             builder.Services.AddMudServices();
+            builder.Services.AddHttpClient();
+            builder.Services.AddControllers();
+            builder.Services.AddDbContext<BBDbContext>(options =>
+                    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add services to the container.
             builder.Services.AddRazorComponents()
@@ -32,6 +38,10 @@ namespace UTS_BrainBox
             }
 
             app.UseHttpsRedirection();
+            app.UseRouting();
+            app.UseAuthorization();
+
+            app.MapControllers(); // <- IMPORTANT
 
             app.UseAntiforgery();
 
