@@ -1,5 +1,8 @@
 ﻿@page "/"
+@using UTS_BrainBox.Entities
 @inject HttpClient Http
+@inject ISnackbar Snackbar
+
 
 <div>
 	<div style="display:flex;justify-content:center;align-items:center;">
@@ -62,25 +65,47 @@
 			var loginData = new { Email = _email, Password = _password };
 			var response = await Http.PostAsJsonAsync("/api/login/auth", loginData);
 
-			if (string.IsNullOrWhiteSpace(_role) || string.IsNullOrWhiteSpace(_email) || string.IsNullOrWhiteSpace(_password))
+			if (response.StatusCode == System.Net.HttpStatusCode.OK)
 			{
-				//Snackbar.Add("Please fill all fields", Severity.Error);
-				return;
-			}
-			
-			if (_role == "Admin" && _email == "sagar.kapase@uts-global.com" && _password == "uts@123")
-			{
-				Navigation.NavigateTo("/dashboard", forceLoad: true);
-			}
-			else if (_role == "Employee" && _email == "employee@uts-global.com" && _password == "Emp@123")
-			{
-				//Snackbar.Add("Employee Login Successful", Severity.Success);
-				Navigation.NavigateTo("/employee-dashboard");
+				var loginResponse = await response.Content.ReadFromJsonAsync<LoginResponse>();
+
+				if (loginResponse != null && _role == loginResponse.Role && _email == loginResponse.Email && _password == loginResponse.Password)
+				{
+					Navigation.NavigateTo("/dashboard", forceLoad: true);
+					//Snackbar.Add("Logged in successfully", Severity.Success);
+				}
+				else
+				{
+					Console.WriteLine("Response was successful, but body is null.");
+					Snackbar.Add("Invalid Credentials", Severity.Error);
+				}
 			}
 			else
 			{
-				//Snackbar.Add("Invalid credentials", Severity.Error);
+				Console.WriteLine($"Login failed. Status Code: {response.StatusCode}");
+				Snackbar.Add("Login Failed", Severity.Error);
+
 			}
+
+			// if (string.IsNullOrWhiteSpace(_role) || string.IsNullOrWhiteSpace(_email) || string.IsNullOrWhiteSpace(_password))
+			// {
+			// 	//Snackbar.Add("Please fill all fields", Severity.Error);
+			// 	return;
+			// }
+			
+			// if (_role == "Admin" && _email == "sagar.kapase@uts-global.com" && _password == "uts@123")
+			// {
+			// 	Navigation.NavigateTo("/dashboard", forceLoad: true);
+			// }
+			// else if (_role == "Employee" && _email == "employee@uts-global.com" && _password == "Emp@123")
+			// {
+			// 	//Snackbar.Add("Employee Login Successful", Severity.Success);
+			// 	Navigation.NavigateTo("/employee-dashboard");
+			// }
+			// else
+			// {
+			// 	//Snackbar.Add("Invalid credentials", Severity.Error);
+			// }
 		}
 		catch (Exception ex)
 		{

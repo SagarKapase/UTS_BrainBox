@@ -11,14 +11,6 @@
       "RelativeMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|solutionrelative:uts_brainbox\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox\\entities\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|solutionrelative:uts_brainbox\\entities\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox\\entities\\loginrequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|solutionrelative:uts_brainbox\\entities\\loginrequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|d:\\.net projects\\uts_quiz_webapp\\uts_brainbox\\uts_brainbox\\dboperations\\bbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14A49446-C5CE-4504-BCA6-F5587596E8D8}|UTS_BrainBox\\UTS_BrainBox.csproj|solutionrelative:uts_brainbox\\dboperations\\bbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1563,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,20 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\Entities\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "UTS_BrainBox\\Entities\\LoginResponse.cs",
-              "ToolTip": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\Entities\\LoginResponse.cs",
-              "RelativeToolTip": "UTS_BrainBox\\Entities\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T15:40:50.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\appsettings.json",
               "RelativeDocumentMoniker": "UTS_BrainBox\\appsettings.json",
@@ -104,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\Program.cs",
               "RelativeDocumentMoniker": "UTS_BrainBox\\Program.cs",
@@ -117,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Program.cs",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Program.cs",
@@ -130,33 +109,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginRequestData.cs",
-              "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\Entities\\LoginRequestData.cs",
-              "RelativeDocumentMoniker": "UTS_BrainBox\\Entities\\LoginRequestData.cs",
-              "ToolTip": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\Entities\\LoginRequestData.cs",
-              "RelativeToolTip": "UTS_BrainBox\\Entities\\LoginRequestData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T02:38:13.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "UTS_BrainBox\\Controllers\\LoginController.cs",
               "ToolTip": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\Controllers\\LoginController.cs",
               "RelativeToolTip": "UTS_BrainBox\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T02:35:20.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BBDbContext.cs",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\DBOperations\\BBDbContext.cs",
               "RelativeDocumentMoniker": "UTS_BrainBox\\DBOperations\\BBDbContext.cs",
@@ -175,14 +141,14 @@
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Pages\\LandingPage.razor",
               "ToolTip": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Pages\\LandingPage.razor",
               "RelativeToolTip": "UTS_BrainBox.Client\\Pages\\LandingPage.razor",
-              "ViewState": "AgIAADYAAAAAAAAAAAAIwFAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwFEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-15T14:42:59.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Routes.razor",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Routes.razor",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Routes.razor",
@@ -190,11 +156,12 @@
               "RelativeToolTip": "UTS_BrainBox.Client\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T14:44:43.008Z"
+              "WhenOpened": "2025-07-15T14:44:43.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "AdministrationalDetails.cs",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Entities\\Admin\\AdministrationalDetails.cs",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Entities\\Admin\\AdministrationalDetails.cs",
@@ -202,11 +169,12 @@
               "RelativeToolTip": "UTS_BrainBox.Client\\Entities\\Admin\\AdministrationalDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T14:17:24.661Z"
+              "WhenOpened": "2025-07-16T14:17:24.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "UserReport.cs",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Entities\\UserReport.cs",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Entities\\UserReport.cs",
@@ -214,11 +182,12 @@
               "RelativeToolTip": "UTS_BrainBox.Client\\Entities\\UserReport.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T03:17:13.174Z"
+              "WhenOpened": "2025-07-15T03:17:13.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "Quizzes.cs",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox.Client\\Entities\\Quizzes.cs",
               "RelativeDocumentMoniker": "UTS_BrainBox.Client\\Entities\\Quizzes.cs",
@@ -226,11 +195,12 @@
               "RelativeToolTip": "UTS_BrainBox.Client\\Entities\\Quizzes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T16:13:32.832Z"
+              "WhenOpened": "2025-07-10T16:13:32.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "App.razor",
               "DocumentMoniker": "D:\\.NET Projects\\UTS_Quiz_WebApp\\UTS_BrainBox\\UTS_BrainBox\\Components\\App.razor",
               "RelativeDocumentMoniker": "UTS_BrainBox\\Components\\App.razor",
@@ -238,7 +208,8 @@
               "RelativeToolTip": "UTS_BrainBox\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T14:48:40.473Z"
+              "WhenOpened": "2025-07-09T14:48:40.473Z",
+              "EditorCaption": ""
             }
           ]
         }
