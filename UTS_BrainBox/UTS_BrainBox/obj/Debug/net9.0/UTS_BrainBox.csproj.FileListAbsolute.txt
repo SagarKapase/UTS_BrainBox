@@ -182,6 +182,8 @@ D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\UTS_
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\UTS_BrainBox.MvcApplicationPartsAssemblyInfo.cache
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\UTS_BrainBox.sourcelink.json
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\scopedcss\bundle\UTS_BrainBox.styles.css
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\compressed\tzxjg6is5z-vu9q1asft2.gz
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\compressed\0wz98yz2xy-i93b8idyg2.gz
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\compressed\iy07rhtn5d-2jeq8efc6q.gz
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\staticwebassets.build.json
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\staticwebassets.development.json
@@ -199,5 +201,3 @@ D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\refi
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\UTS_BrainBox.pdb
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\UTS_BrainBox.genruntimeconfig.cache
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\ref\UTS_BrainBox.dll
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\compressed\tzxjg6is5z-vu9q1asft2.gz
-D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox\obj\Debug\net9.0\compressed\0wz98yz2xy-i93b8idyg2.gz

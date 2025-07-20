@@ -111,3 +111,7 @@ D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\staticwebassets.build.json
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\staticwebassets.build.json
 D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\staticwebassets.build.json
+D:\.NET Projects\UTS_Quiz_WebApp\UTS_BrainBox\UTS_BrainBox.Client\obj\Debug\net9.0\staticwebassets.build.json

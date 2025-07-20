@@ -1,8 +1,11 @@
 ﻿@page "/addQuestions"
 @layout MainLayout
+@inject HttpClient Http
+@inject ISnackbar Snackbar
 
 @using System.Text.RegularExpressions
 @using System.ComponentModel.DataAnnotations
+@using UTS_BrainBox.Client.Entities.Admin
 @using UTS_BrainBox.Client.Layout
 <MudText Typo="Typo.h4" GutterBottom="true">Add Question</MudText>
 
@@ -11,24 +14,45 @@
         <MudItem Style="width:100%;">
             <MudPaper Class="pa-4">
                 <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
-                    <MudSelect @bind-Value="_value"
-                               Label="Select Quiz"
-                               Placeholder="">
-                        @foreach (var state in _states)
+                    <MudSelect @bind-Value="_quizValue"
+                    Label="Select Quiz"
+                    Placeholder="">
+                        @foreach (var quizName in _quizNames)
                         {
-                            <MudSelectItem Value="state">@state</MudSelectItem>
+                            <MudSelectItem Value="quizName">@quizName</MudSelectItem>
                         }
                     </MudSelect>
                     <MudTextField T="string" Label="Question" Required="true" RequiredError="Question is required!" />
+
                     <MudSelect @bind-Value="_qvalue"
-                               Label="Select Question Type"
-                               Placeholder="">
+                    Label="Select Question Type"
+                    Placeholder="">
                         @foreach (var qtype in _questionType)
                         {
                             <MudSelectItem Value="qtype">@qtype</MudSelectItem>
                         }
                     </MudSelect>
-                    <MudTextField T="string" Label="Points" Required="true" RequiredError="" />
+                    <MudRadioGroup T="int" @bind-SelectedOption="_selectedOption">
+                        <MudStack Direction="Column" Spacing="2">
+                            @foreach (var option in _options)
+                            {
+                                <div class="d-flex align-items-center mb-2">
+                                    <MudRadio T="int" Value="@option.Id" />
+                                    <MudTextField @bind-Value="option.Text"
+                                                  Placeholder="Enter option"
+                                                  Class="ml-2"
+                                                  Style="flex:1;" />
+                                </div>
+                            }
+                        </MudStack>
+                    </MudRadioGroup>
+                    <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       StartIcon="@Icons.Material.Filled.Add"
+                       Style="margin-top:10px;"
+                       OnClick="AddOption">Add Option
+                   </MudButton>
+                   <MudTextField T="string" Label="Points" Required="true" RequiredError="" />
                 </MudForm>
             </MudPaper>
             <MudPaper Class="pa-4 mt-4">
@@ -39,14 +63,23 @@
     </MudGrid>
 </div>
 @code {
+
     bool success;
     string[] errors = { };
     MudForm form;
     [Inject] NavigationManager Navigation { get; set; }
-    private string _value;
+    private string _quizValue;
     private string _qvalue;
-    
-    private readonly string[] _states =
+
+    List<string> _quizNames = new();
+    List<CreateQuizzes> quizzes = new();
+
+    private List<AddOptionModel> _options = new();
+    private int _selectedOption;
+
+    private int _optionCounter = 1;
+
+    private readonly string[] _quizzes =
     {
         "Onboarding", "Technology", "Soft Skills"
     };
@@ -54,10 +87,32 @@
     {
         "Multiple Choice Question (MCQ)"
     };
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            quizzes = await Http.GetFromJsonAsync<List<CreateQuizzes>>("/api/admin/all-quizzes");
+            foreach(var quiz in quizzes)
+            {
+                _quizNames.Add(quiz.Title);
+            }
 
+        }
+        catch (Exception ex)
+        {
+            //Console.WriteLine($"Error loading quizzes: {ex.Message}");
+            Snackbar.Add("Exception : " + ex.Message, Severity.Error);
+        }
+    }
     private void AddQuestion()
     {
         //Navigation.NavigateTo("/manageQuizzes");
+    }
+
+    private void AddOption()
+    {
+        if (_options.Count >= 6) return; // Max 4 options
+        _options.Add(new AddOptionModel { Id = _optionCounter++, Text = string.Empty });
     }
 
     private void GoBack() => Navigation.NavigateTo("/manageQuizzes");
