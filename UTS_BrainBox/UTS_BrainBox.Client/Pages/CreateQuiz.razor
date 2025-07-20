@@ -1,5 +1,7 @@
 ﻿@page "/create-quiz"
 @layout MainLayout
+@inject HttpClient Http
+@inject ISnackbar Snackbar
 
 @using System.Text.RegularExpressions
 @using System.ComponentModel.DataAnnotations
@@ -9,23 +11,33 @@
         <MudItem Style="width:100%;">
             <MudPaper Class="pa-4">
                 <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
-                    <MudTextField T="string" Label="Title" Required="true" RequiredError="Title is required!" />
-                    <MudTextField T="string" Label="Description" Required="true" RequiredError="Description is required!" />
-                    <MudSelect @bind-Value="_value"
-                               Label="Select Category"
-                               Placeholder="">
-                        @foreach (var state in _states)
+                    <MudTextField T="string" @bind-Value="_title" Label="Title" Required="true" RequiredError="Title is required!" />
+                    <MudTextField T="string" Label="Description" @bind-Value="_desc" Required="true" RequiredError="Description is required!" />
+                    <MudSelect @bind-Value="_category"
+                    Label="Select Category"
+                    Placeholder="">
+                        @foreach (var category in _categories)
                         {
-                            <MudSelectItem Value="state">@state</MudSelectItem>
+                            <MudSelectItem Value="category">@category</MudSelectItem>
                         }
                     </MudSelect>
-                    <MudTextField T="string" Label="Duration (Minutes)" RequiredError="Quiz Duration is required!" />
+                    <MudTextField T="string" @bind-Value="_noOfQuestions" Label="Total Questions" RequiredError="Total Questions are required!" />
+
+                    <MudTextField T="string" @bind-Value="_duration" Label="Duration (Minutes)" RequiredError="Quiz Duration is required!" />
+                    <MudSelect @bind-Value="_status"
+                               Label="Select Quiz Status"
+                               Placeholder="">
+                        @foreach (var status in _Qstatus)
+                        {
+                            <MudSelectItem Value="status">@status</MudSelectItem>
+                        }
+                    </MudSelect>
                 </MudForm>
             </MudPaper>
             <MudPaper Class="pa-4 mt-4">
                 <MudButton Variant="Variant.Filled" Color="Color.Primary" DropShadow="false" OnClick="GoBack">Go Back</MudButton>
                 <MudButton Variant="Variant.Filled" Color="Color.Secondary" DropShadow="false" OnClick="@(()=>form.ResetAsync())" Class="mx-2">Reset</MudButton>
-                <MudButton Variant="Variant.Filled" DropShadow="false" OnClick="SubmitQuiz">Create</MudButton>
+                <MudButton Variant="Variant.Filled" DropShadow="false" OnClick="CreateNewQuiz">Create</MudButton>
             </MudPaper>
         </MudItem>
     </MudGrid>
@@ -35,26 +47,28 @@
     string[] errors = { };
     MudForm form;
     [Inject] NavigationManager Navigation { get; set; }
-    private string _value;
-    private Margin _margin;
-    private bool _dense;
-    private bool _disabled;
-    private bool _readonly;
-    private bool _placeholder;
-    private bool _helperText;
-    private bool _helperTextOnFocus;
-    private bool _clearable;
-    private bool _fitContent;
-    private bool _modal = true;
+    private string _title;
+    private string _desc;
+    private string _category;
+    private string _duration;
+    private string _status;
+    private string _noOfQuestions;
 
-    private readonly string[] _states =
+
+    private readonly string[] _categories =
     {
         "Onboarding", "Technology", "Soft Skills"
     };
-
-    private void SubmitQuiz()
+    private readonly string[] _Qstatus =
     {
-        // Redirect to Manage Quizzes or wherever appropriate
+        "Active", "Inactive"
+    };
+
+    private async Task CreateNewQuiz()
+    {
+        var quizData = new { Title = _title, Description = _desc, Category = _category, Questions = _noOfQuestions,Duration = _duration,Status=_status };
+        var response = await Http.PostAsJsonAsync("/api/admin/create-quiz", quizData);
+
         Navigation.NavigateTo("/manageQuizzes");
     }
 

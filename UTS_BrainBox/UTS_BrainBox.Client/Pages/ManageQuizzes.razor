@@ -1,8 +1,11 @@
 ﻿@page "/manageQuizzes"
 @inject NavigationManager Navigation
 @using UTS_BrainBox.Client.Entities
+@using UTS_BrainBox.Client.Entities.Admin
 @using UTS_BrainBox.Client.Layout
 @layout MainLayout
+@inject HttpClient Http
+@inject ISnackbar Snackbar
 
 
 <PageTitle>Manage Quizzes</PageTitle>
@@ -17,51 +20,63 @@
 </div>
 <!--Code for Quizzes table -->
 <div>
-    <MudTable T="Quizzes" Items="@quizzes">
-    <ToolBarContent>
-        <MudText Typo="Typo.h6">All Quizzes</MudText>
-        <MudSpacer />
-        <MudTextField T="string" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
-    </ToolBarContent>
-    <HeaderContent>
-        <MudTh>Sr.No</MudTh>
-        <MudTh>Name</MudTh>
-        <MudTh>Description</MudTh>
-        <MudTh>Questions</MudTh>
-        <MudTh>Status</MudTh>
-        <MudTh>Actions</MudTh>
-    </HeaderContent>
-    <RowTemplate>
-        <MudTd DataLabel="Sr.No">@context.Id</MudTd>
-        <MudTd DataLabel="Name">@context.Title</MudTd>
-        <MudTd DataLabel="Description">@context.Description</MudTd>
-        <MudTd DataLabel="Questions">@context.Questions</MudTd>
-        <MudTd DataLabel="Active">
-            <MudSwitch @bind-Value="Basic_Switch2" Color="Color.Primary" />
-        </MudTd>
-        <MudTd DataLabel="Actions">
+    <MudTable T="CreateQuizzes" Items="@quizzes">
+        <ToolBarContent>
+            <MudText Typo="Typo.h6">All Quizzes</MudText>
+            <MudSpacer />
+            <MudTextField T="string" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+        </ToolBarContent>
+        <HeaderContent>
+            <MudTh>ID</MudTh>
+            <MudTh>Name</MudTh>
+            <MudTh>Description</MudTh>
+            <MudTh>Category</MudTh>
+            <MudTh>Duration (mins)</MudTh>
+            <MudTh>Total Questions</MudTh>
+            <MudTh>Status</MudTh>
+            <MudTh>Attempts</MudTh>
+            <MudTh>Actions</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="ID">@context.QuizID</MudTd>
+            <MudTd DataLabel="Name">@context.Title</MudTd>
+            <MudTd DataLabel="Description">@context.Description</MudTd>
+            <MudTd DataLabel="Category">@context.Category</MudTd>
+            <MudTd DataLabel="Duration (mins)">@context.Duration</MudTd>
+            <MudTd DataLabel="Total Questions">@context.Questions</MudTd>
+            @* <MudTd DataLabel="Status">@context.Status</MudTd> *@
+            <MudTd DataLabel="Status">
+                @* <MudSwitch @bind-Value="Basic_Switch2" Color="Color.Primary" /> *@
+                @context.Status
+            </MudTd>
+            <MudTd DataLabel="Attempts">@context.Attempts</MudTd>
+
+            <MudTd DataLabel="Actions">
                 <MudIconButton Icon="@Icons.Material.Filled.Edit" aria-label="edit" />
                 <MudIconButton Icon="@Icons.Material.Filled.Delete" aria-label="delete" />
-        </MudTd>
-    </RowTemplate>
-    <PagerContent>
-        <MudTablePager />
-    </PagerContent>
-</MudTable>
+            </MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager />
+        </PagerContent>
+    </MudTable>
 </div>
 
 
 @code {
     public bool Basic_Switch2 { get; set; } = true;
 
-    private List<Quizzes> quizzes = new()
+    private List<CreateQuizzes> quizzes = new();
+
+    protected override async Task OnInitializedAsync()
     {
-        new Quizzes { Id = 1, Title = "WebServices", Description = "WebServices",Questions="20",Attempts="0"},
-        new Quizzes { Id = 2, Title = "Onboarding", Description = "Onboarding",Questions="50",Attempts="0"},
-        new Quizzes { Id = 3, Title = "eZAutomate", Description = "eZAutomate",Questions="50",Attempts="0"},
-        new Quizzes { Id = 4, Title = "Android", Description = "Android",Questions="30",Attempts="0"},
-        new Quizzes { Id = 5, Title = "Web", Description = "Web",Questions="20",Attempts="0"},
-        new Quizzes { Id = 6, Title = "Webservices Advanced", Description = "Webservices Advanced",Questions="50",Attempts="0"}
-        
-    };
+        try
+        {
+            quizzes = await Http.GetFromJsonAsync<List<CreateQuizzes>>("/api/admin/all-quizzes");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading quizzes: {ex.Message}");
+        }
+    }
 }

@@ -1,5 +1,51 @@
 [
   {
+    "ContainingType": "UTS_BrainBox.Controllers.AdminController",
+    "Method": "GetAllQuizzes",
+    "RelativePath": "api/Admin/all-quizzes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[UTS_BrainBox.Client.Entities.Admin.CreateQuizzes, UTS_BrainBox.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UTS_BrainBox.Controllers.AdminController",
+    "Method": "CreateQuiz",
+    "RelativePath": "api/Admin/create-quiz",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quizData",
+        "Type": "UTS_BrainBox.Client.Entities.Admin.CreateQuizzes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UTS_BrainBox.Client.Entities.Admin.CreateQuizzes",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "UTS_BrainBox.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/auth",

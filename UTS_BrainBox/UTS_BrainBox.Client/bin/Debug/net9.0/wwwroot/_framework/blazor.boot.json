@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "UTS_BrainBox.Client",
   "resources": {
-    "hash": "sha256-IxSPmmh7XUX/0MJ0V7OxvRIugQqFSkwIfUCZ8MYiGmw=",
+    "hash": "sha256-jtgtS/3jdaeuuzWMtTtv5p/9kO2S3TfkgxIh+0ekv2k=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -58,7 +58,7 @@
       "Microsoft.SqlServer.Server.yamodpu5qp.wasm": "Microsoft.SqlServer.Server.wasm",
       "Microsoft.Win32.SystemEvents.asbyu30enw.wasm": "Microsoft.Win32.SystemEvents.wasm",
       "Mono.TextTemplating.kzb422hul9.wasm": "Mono.TextTemplating.wasm",
-      "MudBlazor.z0z0hbz85a.wasm": "MudBlazor.wasm",
+      "MudBlazor.jj4is8psu1.wasm": "MudBlazor.wasm",
       "System.ClientModel.8j5eiu0uyl.wasm": "System.ClientModel.wasm",
       "System.CodeDom.d9ed66qd5a.wasm": "System.CodeDom.wasm",
       "System.Composition.AttributedModel.u6f4klikz3.wasm": "System.Composition.AttributedModel.wasm",
@@ -315,8 +315,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "UTS_BrainBox.Client.dwhoyq0fmp.wasm": "UTS_BrainBox.Client.wasm",
-      "UTS_BrainBox.Client.id505u5mwz.pdb": "UTS_BrainBox.Client.pdb"
+      "UTS_BrainBox.Client.84tpesm2ua.wasm": "UTS_BrainBox.Client.wasm",
+      "UTS_BrainBox.Client.dvsr4roofr.pdb": "UTS_BrainBox.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.rtblh4npr3.js": "sha256-HyBzcYNpT2l19+f1bpjNOa1oFoLe3K4JIQ6GsFK5m6I="
@@ -392,7 +392,7 @@
       "Microsoft.SqlServer.Server.yamodpu5qp.wasm": "sha256-Fig+5hq00gGQlXAgSnyFlUlWyhlx9f+yPJb4INt3gNc=",
       "Microsoft.Win32.SystemEvents.asbyu30enw.wasm": "sha256-1kUoFxSGzlbndQM4zal3G/YBdouUTf444lDjqhuWALU=",
       "Mono.TextTemplating.kzb422hul9.wasm": "sha256-UNDfdehUq+nBEhST6P/jpyMNO7rLZiAm4bgDkhGlQ6A=",
-      "MudBlazor.z0z0hbz85a.wasm": "sha256-U54Xvvw3oN9A3O4M52EqrE6nsawUfpGKUcR6wXTAiXs=",
+      "MudBlazor.jj4is8psu1.wasm": "sha256-gcy2RIHBhJfMGNLP87oAHnuAGE4N/Y8GO97A5g59Wwg=",
       "System.ClientModel.8j5eiu0uyl.wasm": "sha256-hB3YvRqtJh9HC69ryOu2jplvTqYa8opx1wPk+N/txKs=",
       "System.CodeDom.d9ed66qd5a.wasm": "sha256-cQdhJKvu05R+Hld7jJ/zrF8Q63+E29jjQZiyaW9uGek=",
       "System.Composition.AttributedModel.u6f4klikz3.wasm": "sha256-GrIh7Jskms7AYOyY9VxiMJWgqOLbzI9fJ5IaiD0JXng=",
@@ -575,10 +575,10 @@
       "WindowsBase.u25hol0de4.wasm": "sha256-CgB28KCiYKHd4yK6IM0PJ526P7IbRCpNkGTqn+cLwxs=",
       "mscorlib.brg9pkj3je.wasm": "sha256-FzZwzxUYYyg3qxc7Km8r50UKAmRWrIeckSFG1NTHKNU=",
       "netstandard.wuzd3f1y6v.wasm": "sha256-yAXc0deBIRkWTVXqADZfhgZtrxGgJCIbZYVtA0NjvdM=",
-      "UTS_BrainBox.Client.dwhoyq0fmp.wasm": "sha256-nTpNxVHknKx4OkRMKag5K2v06SW0IVCI7vSLppkFMzI="
+      "UTS_BrainBox.Client.84tpesm2ua.wasm": "sha256-qP0QOJT+UtpJYrvJWFxBsGOLe5HaQ3Ch5a49AqOFoSo="
     },
     "pdb": {
-      "UTS_BrainBox.Client.id505u5mwz.pdb": "sha256-NkhgbjcQOEJpdstj9DS6MotxZUY5yUzzDhQs+MR2cDM="
+      "UTS_BrainBox.Client.dvsr4roofr.pdb": "sha256-6RpEVlqv88ozFU64pdgQpJFp3FrEJEL/KsPLptAx4CI="
     },
     "satelliteResources": {
       "cs": {
