@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "UTS_BrainBox.Client",
   "resources": {
-    "hash": "sha256-jtgtS/3jdaeuuzWMtTtv5p/9kO2S3TfkgxIh+0ekv2k=",
+    "hash": "sha256-bdtBndWXOf5vxW3BhriGWPg2FKbAA8px4knyKKqFJ8Y=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -315,8 +315,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "UTS_BrainBox.Client.84tpesm2ua.wasm": "UTS_BrainBox.Client.wasm",
-      "UTS_BrainBox.Client.dvsr4roofr.pdb": "UTS_BrainBox.Client.pdb"
+      "UTS_BrainBox.Client.40zopjw6ip.wasm": "UTS_BrainBox.Client.wasm",
+      "UTS_BrainBox.Client.zhae9ljo7b.pdb": "UTS_BrainBox.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.rtblh4npr3.js": "sha256-HyBzcYNpT2l19+f1bpjNOa1oFoLe3K4JIQ6GsFK5m6I="
@@ -575,10 +575,10 @@
       "WindowsBase.u25hol0de4.wasm": "sha256-CgB28KCiYKHd4yK6IM0PJ526P7IbRCpNkGTqn+cLwxs=",
       "mscorlib.brg9pkj3je.wasm": "sha256-FzZwzxUYYyg3qxc7Km8r50UKAmRWrIeckSFG1NTHKNU=",
       "netstandard.wuzd3f1y6v.wasm": "sha256-yAXc0deBIRkWTVXqADZfhgZtrxGgJCIbZYVtA0NjvdM=",
-      "UTS_BrainBox.Client.84tpesm2ua.wasm": "sha256-qP0QOJT+UtpJYrvJWFxBsGOLe5HaQ3Ch5a49AqOFoSo="
+      "UTS_BrainBox.Client.40zopjw6ip.wasm": "sha256-NCyaekWg3v9Fj3OkD1sb8bPXxV5ExDieBoJ6CrL91+c="
     },
     "pdb": {
-      "UTS_BrainBox.Client.dvsr4roofr.pdb": "sha256-6RpEVlqv88ozFU64pdgQpJFp3FrEJEL/KsPLptAx4CI="
+      "UTS_BrainBox.Client.zhae9ljo7b.pdb": "sha256-p3lHGotNVUlfeLydCPx6AU/d9TtUN/vL+6LHQ0AGkxs="
     },
     "satelliteResources": {
       "cs": {

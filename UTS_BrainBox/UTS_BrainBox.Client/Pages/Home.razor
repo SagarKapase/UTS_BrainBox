@@ -12,25 +12,25 @@
 <div Class="d-flex flex-wrap gap-4" Elevation="0">
     <MudCard Class="align-center" Width="280px" Height="170px">
         <MudCardContent Class="align-content-center">
-            <MudText style="text-align:center">12</MudText>
+            <MudText style="text-align:center">@QuizCount</MudText>
             <MudText Typo="Typo.body2">Quizzes</MudText>
         </MudCardContent>
     </MudCard>
     <MudCard Class="align-center" Width="300px" Height="170px">
         <MudCardContent Class="align-content-center">
-            <MudText style="text-align:center">59</MudText>
+            <MudText style="text-align:center">0</MudText>
             <MudText Typo="Typo.body2">Users</MudText>
         </MudCardContent>
     </MudCard>
     <MudCard Class="align-center" Width="300px" Height="170px">
         <MudCardContent Class="align-content-center">
-            <MudText style="text-align:center">3</MudText>
+            <MudText style="text-align:center">0</MudText>
             <MudText Typo="Typo.body2">Pending Results</MudText>
         </MudCardContent>
     </MudCard>
     <MudCard Class="align-center" Width="300px" Height="170px">
         <MudCardContent Class="align-content-center">
-            <MudText style="text-align:center">56</MudText>
+            <MudText style="text-align:center">0</MudText>
             <MudText Typo="Typo.body2">Certificates</MudText>
         </MudCardContent>
     </MudCard>
@@ -80,15 +80,22 @@
 
 @code
 {
+
+
+
     public bool Basic_Switch2 { get; set; } = true;
 
     private List<CreateQuizzes> quizzes = new();
+
+    private int QuizCount = 0;
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
             quizzes = await Http.GetFromJsonAsync<List<CreateQuizzes>>("/api/admin/all-quizzes");
+
+            QuizCount = quizzes.Count;
         }
         catch (Exception ex)
         {
